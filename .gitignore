@@ -1,0 +1,36 @@
+# Local diagnostics and editor state
+/logs/
+*.log
+/.vs/
+/.vscode/
+*.code-workspace
+*.swp
+*~
+Thumbs.db
+.DS_Store
+
+# Business Central licenses and proprietary packages
+*.bclicense
+*.flf
+*.app
+/UpgradeApps/
+/.alpackages/
+
+# Database backups, generated plans, and recovery metadata
+*.bak
+*.bacpac
+*.mdf
+*.ndf
+*.ldf
+/backups/
+/BcContainerUpgradeBackups/
+restore-state.json
+upgrade-plan.json
+source-apps.json
+
+# Local credentials and certificates
+.env
+.env.*
+*.pfx
+*.p12
+*.key
